@@ -1,3 +1,6 @@
+" A more advanced version of .vimrc file can be found in
+" http://amix.dk/vim/vimrc.html
+
 " no paste toggle
 set nopaste
 
