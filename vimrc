@@ -22,12 +22,26 @@ endif
 
 set ruler
 
+" Highlight search results
+set hlsearch
+
+" Show matching brackets when text indicator is over them
+set showmatch 
+
+" Turn backup off, since most stuff is in SVN, git et.c anyway...
+set nobackup
+set nowb
+set noswapfile
+
 " Use UTF-8 without BOM
 set encoding=utf-8 nobomb
 
 " Show “invisible” characters
 set lcs=tab:?\ ,trail:·,eol:¬,nbsp:_
 set list
+
+" Always show the status line
+set laststatus=2
 
 "Character limit
 set textwidth=80
