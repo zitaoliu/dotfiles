@@ -5,13 +5,13 @@ alias ta='tmux a -t '
 alias tn='tmux new -s '
 alias tk='tmux kill-session -t '
 
-
+alias gcc='gcc-6'
 
 # environment variables
-#export PATH=""
 #export JAVA_HOME=""
 #export PYTHONPATH=""
 export USER=zitaoliu
+export CC=/usr/local/bin/gcc-6
 
 # git branch visualization
 
