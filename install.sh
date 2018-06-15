@@ -11,8 +11,7 @@ git clone https://github.com/fholgado/minibufexpl.vim.git ~/.vim/bundle/minibufe
 ln -si ~/code/dotfiles/tmux ~/.tmux
 ln -si ~/code/dotfiles/tmux.conf ~/.tmux.conf
 
-ln -si "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl2
-
-ln -si "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+sudo mkdir -p /usr/local/bin/
+sudo ln -si "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 
 ln -si ~/code/dotfiles/bash_profile ~/.bash_profile
